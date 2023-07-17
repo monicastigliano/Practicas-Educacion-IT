@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+/*
+ font-family: 'Coiny', cursive;
+font-family: 'Roboto', sans-serif; 
+*/
+body{
+  margin: 0 50px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1{
+  font-family:'Coiny', cursive;
+  font-size: 56px;
+}
+header ul{
+  width: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+a{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 32px;
+  text-decoration: none;
+  color: black;
+}
+.fondo-yellow{
+  background-color: #fcee21;
+}
+.titulo{
+  font-family: 'Roboto', sans-serif; 
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.titulo span{
+  display: flex;
+  font-family: 'Coiny', cursive;
+  font-size: 118,66px;
+}
+
+.social{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 26.66px;
+}
+.social + p{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 32px;
+}
+.social + p > span{
+  font-weight: bold;
+}
+
+.hola{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 34.66;
+}
+
+.hola + p{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 28px;
+}
+
+.hola + p > span{
+  font-weight: bold;
+
+}
+
+.servicios{
+font-family: 'Roboto', sans-serif; 
+font-weight: bold;
+font-size: 54.66px;
+}
+
+.servicios + ol{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 32px;
+}
+.servicios-bold{
+  font-weight: bold;
+}
+.contactemos{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 68px;
+  font-weight: bold;
+  background-color: black;
+  color: #fff;
+}
+.envianos{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 44px;
+  font-weight: bold;
+}
+

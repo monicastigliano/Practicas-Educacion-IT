@@ -3,10 +3,25 @@
  font-family: 'Coiny', cursive;
 font-family: 'Roboto', sans-serif; 
 */
+*{
+  box-sizing: border-box;
+}
 body{
+  margin: 0;
+  background-color: #F2F2F2;
+  font-family: 'Roboto', sans-serif; 
+  font: 400;
+  font-size: 24px;
+  color: #333;
+}
+main{
   margin: 0 50px;
 }
-header{
+.barra{
+  width: 100%;
+  height: 10px;
+}
+nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,6 +29,7 @@ header{
 header h1{
   font-family:'Coiny', cursive;
   font-size: 56px;
+  margin-left: 3%;
 }
 header ul{
   width: 50%;
@@ -22,7 +38,6 @@ header ul{
   justify-content: space-evenly;
 }
 a{
-  font-family: 'Roboto', sans-serif; 
   font-size: 32px;
   text-decoration: none;
   color: black;
@@ -31,7 +46,6 @@ a{
   background-color: #fcee21;
 }
 .titulo{
-  font-family: 'Roboto', sans-serif; 
   font-weight: bold;
   font-size: 64px;
 }
@@ -43,11 +57,9 @@ a{
 }
 
 .social{
-  font-family: 'Roboto', sans-serif; 
   font-size: 26.66px;
 }
 .social + p{
-  font-family: 'Roboto', sans-serif; 
   font-size: 32px;
 }
 .social + p > span{
@@ -55,12 +67,11 @@ a{
 }
 
 .hola{
-  font-family: 'Roboto', sans-serif; 
   font-size: 34.66;
 }
 
 .hola + p{
-  font-family: 'Roboto', sans-serif; 
+
   font-size: 28px;
 }
 
@@ -70,28 +81,116 @@ a{
 }
 
 .servicios{
-font-family: 'Roboto', sans-serif; 
-font-weight: bold;
-font-size: 54.66px;
+  font-weight: bold;
+  font-size: 54.66px;
 }
 
 .servicios + ol{
-  font-family: 'Roboto', sans-serif; 
   font-size: 32px;
 }
 .servicios-bold{
   font-weight: bold;
 }
 .contactemos{
-  font-family: 'Roboto', sans-serif; 
   font-size: 68px;
   font-weight: bold;
-  background-color: black;
   color: #fff;
+  background-color: black;
 }
 .envianos{
-  font-family: 'Roboto', sans-serif; 
   font-size: 44px;
   font-weight: bold;
 }
+img{
+  width: 50%;
+  height: auto;
+}
+
+form{
+ width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.formulario{
+  width: 600px;
+  padding: 4%;
+}
+form input{
+  margin-bottom: 10px;
+  height: 50px;
+  width: 100%;
+}
+.botones{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+}
+button{
+  background-color: black;
+  color: #fff;
+  width: 20%;
+  height: 80%;
+  border-radius: 4%;
+}
+label{
+  font-weight: bold;
+  font-size: 26.66px;
+}
+.form-red{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+.redes-sociales{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.redes-sociales p{
+  font-weight: bold;
+  font-size: 33.33px;
+}
+.redes-sociales img{
+  width: 4%;
+  height: 4%;
+}
+
+
+footer{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+footer h1{
+  font-family: 'Coiny', cursive;
+  font-size: 44px;
+  margin-right: 30px;
+}
+footer a{
+  font-size: 28px;
+}
+.contenedor-servicios{
+  display: flex;
+  flex-direction:row;
+}
+.wapas1, .wapas2{
+  display: flex;
+  flex-direction: row;
+}
+.wapas1 div, .wapas2 div{
+  margin-left: 10px;
+}
+.contenedor-wapas{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+}
+.foto{
+  text-align: center;
+}
+
+
+
 

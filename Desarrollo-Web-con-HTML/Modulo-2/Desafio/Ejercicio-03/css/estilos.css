@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700;900&display=swap');
+
+/* 
+font-family: 'Source Sans 3', sans-serif;
+*/
+body{
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.contenedor{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+h2{
+  font-size: 38.66px;
+  background-color: #04146c;
+  color: #fff;
+}
+
+h1{
+  font-weight: 900;
+  font-size: 88px;
+  color: #04146c;
+}
+
+h3{
+  font-weight: 400;
+  font-size: 26.66px;
+}
+h3 strong{
+  font-weight: 700;
+}
+
+p{
+  font-size: 24px;
+  font-weight: 400;
+  color: #04146c;
+  background-color: #edf7ff;
+}
+img{
+  width: 600px;
+}

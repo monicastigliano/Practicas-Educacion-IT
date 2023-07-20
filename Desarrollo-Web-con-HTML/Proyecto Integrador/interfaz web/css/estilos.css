@@ -80,6 +80,11 @@ a{
 
 }
 
+ol{
+  font-size: 2em;
+  font-weight: 400;
+  list-style-position: inside;
+}
 .servicios{
   font-weight: bold;
   font-size: 54.66px;
@@ -120,16 +125,19 @@ form input{
   height: 50px;
   width: 100%;
 }
+label span{
+  color: red;
+}
 .botones{
   display: flex;
   justify-content: space-between;
   height: 50px;
   width: 100%;
 }
-button{
+.botones input{
   background-color: black;
   color: #fff;
-  width: 20%;
+  width: 30%;
   height: 80%;
   border-radius: 4%;
 }
@@ -152,9 +160,9 @@ label{
   font-weight: bold;
   font-size: 33.33px;
 }
-.redes-sociales img{
-  width: 4%;
-  height: 4%;
+.redes-sociales a img{
+  width: 50%;
+  height: auto;
 }
 
 

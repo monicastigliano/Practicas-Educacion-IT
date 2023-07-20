@@ -10,9 +10,8 @@
   <header>
     <div class="fondo-yellow barra"></div>
     <nav>
-      <h1>wwwapas</h1>
+      <h1><a href="index.html">wwwapas</a></h1>
       <ul link>
-        <li><a href="#">Inicio</a></li>
         <li><a href="#servicios">Servicios</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
@@ -56,12 +55,12 @@
 
     </section>
     <hr>
-    <section class="contenedor-servicios">
+    <section class="contenedor-servicios" id="servicios">
       <div>
         <img src="./css/img/img-servicios.png" alt="">
       </div>
       <div>
-        <h4 class="servicios" id="servicios">SERVICIOS</h4>
+        <h4 class="servicios" >SERVICIOS</h4>
       <ol>
         <li>Análisis de perfil (Benchmarking)</li>
         <li>Revisión y activación de canales</li>
@@ -82,27 +81,33 @@
         <p class="fondo-yellow envianos">Envianos tu consulta >></p>
       </div>
       <div class="formulario">
-        <form action="">
-          <label for="nombre">Nombre</label>
-          <input type="text" name="nombre">
-          <label for="email">Email</label>
-          <input type="text" name="email">
-          <label for="mensaje">Mensaje</label>
-          <input type="textarea" name="mensaje">
+        <form action="codigo.php" method="post">
+          <label >Nombre <span>*</span><input type="text" required></label>
+          <label >Email <span>*</span><input type="email" placeholder="Email principal de referencia" required></label>
+          
+          <label >Mensaje <span>*</span><input type="textarea" required></label>
+          
           <div class="botones">
-            <button>Enviar Consulta</button>
-            <button>Borrar</button>
+            <input type="submit" value="Enviar Consulta">
+            <input type="reset" value="Borrar" >
           </div>
         </form>
       </div>
-
     </section>
     <aside class="redes-sociales">
       <p>redes wwwapas</p>
-      <img src="./css/img/instagram-icon.png" alt="instagram">
-      <img src="./css/img/dribbble-icon.png" alt="dribbble">
-      <img src="./css/img/linkedin-icon.png" alt="linkedin">
-      <img src="./css/img/facebook-icon.png" alt="facebook">
+      <div>
+        <a title="instagram education it" href="https://wwww.instagram.com/educationit/">
+          <img src="./css/img/instagram-icon.png" alt="instagram">
+        </a>
+      </div>
+      <div><a href="#"><img src="./css/img/dribbble-icon.png" alt="dribbble"></a></div>
+      <div><a href="#"><img src="./css/img/linkedin-icon.png" alt="linkedin"></a></div>
+      <div>
+        <a title="facebook education it" href="https://www.facebook.com/EducationIT/" target="_blank">
+          <img src="./css/img/facebook-icon.png" alt="facebook">
+        </a>
+      </div>
     </aside>
   </main>
   <footer class="fondo-yellow">

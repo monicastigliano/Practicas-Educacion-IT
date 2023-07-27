@@ -66,8 +66,7 @@
         <li>Revisión y activación de canales</li>
         <li>Gestión, creación y diseño de contenido</li>
         <li>Respuestas a mensajes y consultas</li>
-        <li>Segmentación de promociones según el público objetivo</li>
-        <li>la pauta publicitaria</li>
+        <li>Segmentación de promociones según el público objetivo de la pauta publicitaria</li>
         <li>Diagramamos un calendario que se ajuste a los objetivos
           de la empresa</li>
         <li class="fondo-yellow servicios-bold">¡Empezamos a comunicar!</li>
@@ -81,11 +80,11 @@
         <p class="fondo-yellow envianos">Envianos tu consulta >></p>
       </div>
       <div class="formulario">
-        <form action="codigo.php" method="post">
-          <label >Nombre <span>*</span><input type="text" required></label>
-          <label >Email <span>*</span><input type="email" placeholder="Email principal de referencia" required></label>
+        <form action="php/codigo.php" method="post">
+          <label >Nombre <span>*</span><input type="text" name="nombre" placeholder="Octavio García" required></label>
+          <label >Email principal de referencia <span>*</span><input type="email" name="email" placeholder="info@mimail.com" required></label>
           
-          <label >Mensaje <span>*</span><input type="textarea" required></label>
+          <label >Mensaje <span>*</span><input type="textarea" name="comentarios" required></label>
           
           <div class="botones">
             <input type="submit" value="Enviar Consulta">

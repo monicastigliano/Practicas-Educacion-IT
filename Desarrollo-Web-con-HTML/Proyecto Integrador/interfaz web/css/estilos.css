@@ -42,6 +42,10 @@ a{
   text-decoration: none;
   color: black;
 }
+
+a:hover{
+  color: grey;
+}
 .fondo-yellow{
   background-color: #fcee21;
 }
@@ -95,6 +99,7 @@ ol{
 }
 .servicios-bold{
   font-weight: bold;
+  font-size: 40px;
 }
 .contactemos{
   font-size: 68px;
@@ -137,7 +142,7 @@ label span{
 .botones input{
   background-color: black;
   color: #fff;
-  width: 30%;
+  width: 49%;
   height: 80%;
   border-radius: 4%;
 }

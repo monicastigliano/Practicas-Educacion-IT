@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body, input, button {
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  width: 100vw;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.imagen img{
+  width: 100%;
+}
+
+
+h1{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 58.66px;
+  color: #0a2ff1;
+  margin: 20px auto;
+
+}
+
+main{
+  width: 80%;
+  padding: 10px;
+  margin: 100px auto;
+}
+
+.imagen-main img{
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+
+p{
+  font-weight: 400;
+  font-size: 25.33px;
+  color: #000;
+  margin-top: 70px;
+}
+
+h2{
+  font-weight: 700;
+  color: #0a2ff1;
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+.parrafo-2{
+  margin-top: 0;
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+button{
+  width: 300px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 26.66px;
+  color: #fff;
+  background: #0a2ff1;
+}
+
+footer{
+  width: 80%;
+  margin: auto;
+}
+
+footer p{
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.franja{
+  width: 100%;
+  height: 20px;
+  background: #15163d;
+}

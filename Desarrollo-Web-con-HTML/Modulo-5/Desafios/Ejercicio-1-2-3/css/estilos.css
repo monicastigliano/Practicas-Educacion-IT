@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* font-family: 'Roboto Slab', serif; */
+
+*{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+a{
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 24px;
+  color: #04146c;
+  margin: 0 2%;
+}
+a:hover, a:active{
+  font-weight: 700;
+}
+
+.activo{
+  font-weight: 700;
+}
+
+a img{
+  width: 100px;
+  height: 100px;
+}
+
+
+main{
+  margin: auto;
+  text-align: center;
+}
+h1{
+  font-size: 96px;
+  color: #0a2ff1;
+}
+
+p{
+  font-weight: 400;
+  font-size: 34.66px;
+  color: #04146c;
+}
+.imagen img{
+  width: 100%;
+}
+.formulario{
+  width: 50vw;
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.parrafo-form{
+  font-size: 45.33px;
+  color: #2c00cc;
+  margin-bottom: 10px;
+}
+
+form{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+ h1, .parrafo-form, .btn-reset, .btn-submit{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
+
+form h2{
+  font-weight: 400;
+  font-size: 30.66px;
+  color: #04146c;
+}
+
+form span{
+  color: red;
+  font-weight: 700;
+}
+
+label{
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 30.66px;
+  color: #04146c;
+}
+
+input, textarea, label{
+  width: 500px;
+  
+}
+input{
+  height: 50px;
+}
+
+textarea{
+  height: 100px;
+}
+
+.btn-reset{
+  background-color: #f98500;
+}
+.btn-submit{
+  background-color: #2c00cc;
+}
+
+.botones{
+  display: flex;
+  justify-content: left;
+}
+
+
+.btn-submit, .btn-reset{
+  width: 150px;
+  color: #fff;
+  border-radius: 5px;
+  margin: 10px 10px 10px 0;
+  font-size: 32px;
+}
+
+.beneficios{
+  display: flex;
+  margin-bottom: 0;
+}
+
+section{
+  width: 50vw;
+  height: 600px;  
+}
+
+.info{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.imagen-section{
+  width: 50vw;
+  height: auto;
+  background-image: url(img/M5-Desafio3-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  bottom: -65px;
+}
+
+section h1{
+  margin-bottom: 3%;
+  font-weight: 700;
+  font-size: 45.33px;
+  color: #0a2ff1;
+}
+section h2{
+  font-weight: 700;
+}
+
+section p{
+  font-weight: 400;
+  margin-bottom: 1%;
+}
+
+section h2, section p{
+  font-size: 24px;
+  color: #04146c;
+}
+section img{
+
+}
+
+footer{
+  width: 100%;
+  height: 150px;
+  background-color:#3958F1;
+  display: flex;
+}
+
+footer img{
+  margin-left: 10%;
+  width: 200px;
+  height: auto;
+}

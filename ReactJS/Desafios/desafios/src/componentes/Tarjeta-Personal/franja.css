@@ -1,0 +1,10 @@
+.franja{
+    margin-top: 40px;
+    width: 100px;
+    height: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(255, 240, 253),
+    0 0 25px rgba(240, 248, 255, 0.915), 0 0 50px rgba(240, 248, 255, 0.755), 0 0 100px rgba(240, 248, 255, 0.648)
+    ;
+  }

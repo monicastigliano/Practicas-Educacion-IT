@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M5-Deasío</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+            padding: 1px;
+        }
+        h1{
+            text-align: center;
+        }
+        .contenedor{
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .cargaDatos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            width: 100%;
+        }
+        
+        .cajaCategorias{
+            width: 50%;
+        }
+        .caja{
+            position: relative;
+            margin: 2px;
+            width: 48%;
+            border: 1px solid red;
+            text-align: center;
+            background-color: antiquewhite;
+        }
+        li{
+            list-style: none;
+        }
+        .btnResultado{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            color: aliceblue;
+            background-color: #c583bc;
+        }
+        .categorias{
+            text-align: start;
+
+        }
+        .formulario{
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cálculos</h1>
+    <div class="contenedor" >
+        <div id="calculoUno" class="caja">
+            <h3>Cálculo del Punto de equilíbrio</h3>
+            <input type="text" id="ingresoTotal" placeholder="Ingreso Total en $">
+            <button id="calcular" class="btnResultado">Calcular</button>
+            <div id="puntoEquilibrio"></div>
+        </div>
+        <div id="calculoDos" class="caja">
+            <h3>Cálculo de Presupuesto</h3>
+            <input type="text" id="montoIngreso" placeholder="Monto Ingresos en $">
+            <button id="calcularDos" class="btnResultado">Calcular</button>
+            <div id="presupuesto"></div>
+        </div>
+        <div id="calculoTres" class="caja">
+            <h3>Cálculo de Presupuesto según porcentaje de categorias ingresadas</h3>
+            <input type="text" id="ingreso" placeholder="Ingreso en $">
+            <div class="cargaDatos">
+                <form action="" class="formulario">
+                    <label for="">Categoría Uno</label>
+                    <input type="text" id="porcentajeUno" placeholder="Porcentaje">
+                    <label for="">Categoría Dos</label>
+                    <input type="text" id="porcentajeDos" placeholder="Porcentaje">
+                    <label for="">Categoría Tres</label>
+                    <input type="text" id="porcentajeTres" placeholder="Porcentaje">
+                </form>
+            
+                <div id="porcentajes" class=""></div>
+            </div>
+            <button id="calcularTres" class="btnResultado">Calcular</button>
+            
+        </div>
+        <div id="calculoCuatro" class="caja">
+            <h3>Cálculo de Presupuesto según porcentaje y nombre de categorias ingresadas</h3>
+            <input type="text" id="ingresos" placeholder="Ingreso Total en $">
+
+            <div class="cargaDatos">
+                <div class="cajaCategorias">
+                <div id="categorias" class="categorias"> </div>
+                
+                <form action="" class="">
+                    <input type="text" id="categoria" placeholder="Categoría">
+                    <input type="text" id="porcentaje" placeholder="Porcentaje">
+                    <button id="btnAgregar">Agregar</button>
+                </form>
+            </div>
+                <div id="resultado" class="categorias"></div>
+            </div> 
+            <button id="calcularCuatro" class="btnResultado">Calcular</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

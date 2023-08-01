@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío</title>
+</head>
+<body>
+    
+</body>
+<script>
+// Ejercicio 1
+
+// Contexto:
+// En estos desafíos vamos a estar aplicando
+// JavaScript para ayudar a ArgenFin, una
+// institución financiera dedicada a emitir créditos
+// para PyMEs.
+// Un indicador muy básico de la rentabilidad de un
+// negocio se llama Punto de equilibrio, que permite
+// medir las ganancias y pérdidas de un proceso
+// productivo.
+
+// Consigna:
+// Diseñar un programa en JavaScript que pida
+// estos datos y realice el cálculo del Punto de
+// equilibrio.
+    let costosFijos = parseFloat(prompt('Ingrese Costos Fijos'));
+    let precioDeVenta = parseFloat(prompt('Ingrese Precio de venta'));
+    let costosVariables = parseFloat(prompt('Ingrese Costos Variables'));
+    let puntoDeEquilibrio = costosFijos / (precioDeVenta - costosVariables)
+    document.writeln('El Punto de Equilibrio es: ' + puntoDeEquilibrio)
+
+// Ejercicio 2
+
+// Contexto:
+// Continuaremos aplicando JavaScript para ayudar
+// a ArgenFin.
+// Parte del trabajo de ArgenFin consiste en
+// impartir capacitaciones en educación
+// financiera. Entre sus cursos se encuentra el
+// Programa ejecutivo de finanzas personales,
+// donde el objetivo principal es desarrollar un
+// presupuesto personal.
+// En este programa se ven distintos modelos de
+// presupuesto. Un modelo común es el modelo
+// 50-30-20, que consiste en repartir los ingresos
+// de esta forma: 50% para los gastos necesarios,
+// 30% para gastos opcionales y un 20% para
+// ahorro e inversión.
+
+// Consigna:
+// Diseñar un programa en JavaScript que, recibiendo el
+// ingreso total, muestre el monto a dedicar a cada una de
+// esas categorías (gastos necesarios, gastos opcionales,
+// ahorro e inversión).
+
+let ingresoTotal = parseFloat(prompt('Ingrese su Ingreso Total'))
+
+let cincuenta = (ingresoTotal * 50)/ 100;
+let treinta = (ingresoTotal * 30)/ 100;
+let viente = (ingresoTotal * 20)/ 100;
+document.writeln('gastos necesarios: ' + cincuenta);
+document.writeln('gastos opcionales: ' + treinta);
+document.writeln('ahorro e inversión: ' + viente);
+</script>
+</html>

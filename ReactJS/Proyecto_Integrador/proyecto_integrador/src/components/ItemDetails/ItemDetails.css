@@ -1,0 +1,82 @@
+/* Iamge */
+.image-wrapper {
+    display: block;
+    box-sizing: border-box;
+    padding: 30px;
+    position: relative;
+}
+
+.image-wrapper img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* Texts */
+.content {
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+/* Product Info */
+
+.product-info {
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+.colors,
+.sizes,
+.price {
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.colors span::after,
+.sizes span::after {
+    content: ': ';
+}
+
+.colors .colors-list,
+.sizes .sizes-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    margin-left: 10px;
+}
+
+.colors .colors-list li,
+.sizes .sizes-list li {
+    margin: 0 5px;
+}
+
+.colors .colors-list li::after {
+    content: ',';
+}
+
+.sizes .sizes-list li::after {
+    content: ' - ';
+}
+
+.colors .colors-list li:last-child::after,
+.sizes .sizes-list li:last-child::after{
+    content: none;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.price .price-text::after {
+    content: ':';
+}
+
+.price .price-value {
+    margin-left: 10px;
+}
+
+.price .price-value::before {
+    content: '$';
+}

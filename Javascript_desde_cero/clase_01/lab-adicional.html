@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio Adicional</title>
+</head>
+<body>
+    
+</body>
+<script>
+    //Ejercicio 1
+
+    // Realizar una ventana de usuario donde el mismo
+    // ingresará:
+    // ● edad
+    // ● nombre
+    // ● apellido
+    // Estos datos se mostrarán en una alerta, en un
+    // texto complejo tal como:
+    // ‘El nombre del usuario es…’
+
+    let nombre = prompt('Ingresa el nombre del usuario');
+    let apellido = prompt('Ingresa el apellido del usuario')
+    let edad = prompt('Ingresa la edad del usuario')
+    alert('El nombre de usuario es ' + nombre + ' ' + apellido + ' y su edad ' + edad + '.')
+
+    //Ejercicio 2
+
+    // Este mismo proceso anterior se mostrará en el
+    // documento a través de document.write()
+
+    document.write('El nombre de usuario es ' + nombre + ' ' + apellido + ' y su edad ' + edad + '.')
+
+    //Ejercicio 3
+
+    // Se pedirá al mismo usuario ingresar su sueldo
+    // y una variable llamada bonus, se intentará sumar
+    // ambas y se evaluará qué medida se debe tomar
+    // ya que los valores ingresados a través de la
+    // ventana se concatenan y no se suman por lo
+    // tanto se trabajará con parseInt() y parseFloat().
+    
+    let sueldo = prompt('Ingrese su sueldo');
+    let bonus = prompt('Ingrese su bonus');
+    let suma = parseFloat(sueldo) + parseFloat(bonus)
+    document.write('El resultado final de tu sueldo es ' + suma);
+
+</script>
+</html>

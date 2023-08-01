@@ -1,0 +1,30 @@
+.list-item {
+    display: block;
+    box-sizing: border-box;
+    padding: 30px;
+    position: relative;
+    color: black;
+}
+
+.list-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.list-item .list-item-box {
+    background-color: rgba(255, 255, 255, 0.65);
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    width: calc(100% - 140px);
+    height: calc(100% - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item .list-item-box span {
+    font-size: 32px;
+    font-weight: bold;
+}

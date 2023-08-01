@@ -1,0 +1,10 @@
+Reporte:
+
+*No es nesario declarar las variables con (var), una buena practica es declararlas con (let) ya que de esta manera se definiran solo una vez de esta manera evitamos posibles errores en la ejecución del programa. 
+
+*la variable suma es necesario inicializarla en (cero), sino en el momento de incrementarle su valor con el numeroActual no va a realizar la suma ya que (suma) estara sin valor. Y al valorActual solo debe declararse fuera del do-while y no es necesario inicializarlo en cero (en ese lugar seria conveniente inicializar suma en cero), porque valorActual se ingresa por medio del prompt dentro del (do-while)
+
+*la palabra continuar nunca se declara, y no cumple una función importante. No es necesaria. 
+en la condición de cierre del while con solo poner el confirm alcanza porque este ya estaria devolviendo un valor de verdad.
+
+*la mejora de este codigo se encuentra en el archivo script_mejorado.js

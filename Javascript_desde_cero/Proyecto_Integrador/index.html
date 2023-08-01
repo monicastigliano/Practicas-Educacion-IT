@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Proyecto Integrador</title>
+</head>
+<body>
+    <div class="contenedor_principal">
+        <div id="contenedor" class="contenedor_formulario">
+            <h3 class="titulo">Ingrese una nueva implementación</h3>
+            <form action="" id="formulario" class="formulario">
+                <label for="" class="titulo">Tipo de Energía
+                    <input list="opciones" name="" id="t_energia">
+                </label>
+                <datalist id="opciones">
+                    <option value="Eólica"></option>
+                    <option value="Hidroeléctrica"></option>
+                    <option value="Solar"></option>
+                </datalist> 
+                
+                <label for="" class="titulo">Descripción   
+                     <input type="text" name="" id="descrip">
+                </label>
+                    
+                <label for="" class="titulo">Energía generada (kw / h)
+                    <input type="text" name="" id="energia_gener">
+                </label>
+                
+                <label for="" class="titulo">Presupuesto ($)
+                    <input type="text" name="" id="presup">
+                </label>
+                
+                <label for="" class="titulo">Tiempo estimado (en meses)
+                    <input type="text" name="" id="tiempo_estim">
+                </label>
+                
+                <button class="btn" id="btn-implementacion">Agregar implementación</button>
+                <button class="btn" id="btn-procesar">Procesar resultados</button>
+            </form>
+        </div>
+        
+        <div id="informacion" class="titulo contenedor_informacion" >
+             <table id="tabla_datos">
+                <tr>
+                    <th>Tipo de Energía</th>
+                    <th>Descripción</th>
+                    <th>Energía generada (en Km/h)</th>
+                    <th>Presupuesto ($)</th>
+                    <th>Tiempo estimanos (en meses)</th>
+                </tr>
+             </table>   
+            <hr>
+            <div id="efectividad" class="titulo"></div>
+            <hr>
+            <div id="energia_recomendada" class="titulo"></div>
+        </div>
+
+</body>
+<script src="script.js"></script>
+</html>

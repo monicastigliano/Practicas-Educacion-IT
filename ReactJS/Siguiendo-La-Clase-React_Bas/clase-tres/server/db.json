@@ -1,0 +1,24 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Marcelo",
+      "apellido": "Column"
+    },
+    {
+      "id": 2,
+      "nombre": "Aaron",
+      "apellido": "Amaro"
+    },
+    {
+      "id": 3,
+      "nombre": "Was",
+      "apellido": "Nuñez"
+    },
+    {
+      "id": 4,
+      "nombre": "Michael",
+      "apellido": "Jackson Junior"
+    }
+  ]
+}

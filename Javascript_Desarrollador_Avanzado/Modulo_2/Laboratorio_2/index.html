@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M2-Laboratorio_2</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<nav id="drawer">
+		<a href="link1" >link1</a>
+		<a href="link2" >link2</a>
+		<a href="link3" >link3</a>
+	</nav>
+	<header>
+		<button class="material-icons" id="btn_menu">menu</button>
+	</header>
+	<button id="error">Click!</button>
+	<article id="info"></article>
+
+	<form>
+		<fieldset>
+			<legend>Usuario</legend>
+			<div class="group">
+				<label for="nombre">Nombre</label>
+				<input id="nombre" type="text" placeholder="Nombre de usuario">
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Datos del mensaje</legend>
+			<div class="group">
+				<label for="titulo">Titulo</label>
+				<input id="titulo" type="text" placeholder="Titulo" >
+			</div>
+			<div class="group">
+				<label for="mensaje">Mensaje</label>
+				<textarea id="mensaje"></textarea>
+			</div>
+		</fieldset>
+		<button id="btn-comentar">Comentar!</button>
+	</form>
+	<ul id="lista">
+		
+	</ul>
+
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

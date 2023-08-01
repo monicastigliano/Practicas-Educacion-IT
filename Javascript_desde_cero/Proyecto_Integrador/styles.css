@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenedor_formulario{
+    width: 25%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0D0D0D;
+}
+.contenedor_principal{
+    width: 100%;
+    display: flex;
+    background-color: #3B3B3B;
+    justify-content: space-around;
+}
+.contenedor_informacion{
+    width: 75%;
+}
+.formulario{
+    width: 260px;
+    
+}
+.tabla_datos{  
+    width: 100%;
+}
+.informacion{
+    display: flex;
+    
+}
+th,
+td{
+    padding-left: 15px;
+}
+td{
+    color: #C5C2BF; 
+}
+.titulo{
+    color: #C5C2BF;
+    margin-bottom: 20px;
+}
+
+input,
+.btn{
+    width: 200px;
+    margin: 5px;
+    color: #C5C2BF;
+    background-color: #0D0D0D;
+    border: 1px solid #3B3B3B;
+}
+.btn:hover{
+    background-color: #3B3B3B;
+    border: 0.5px solid #C5C2BF;
+}

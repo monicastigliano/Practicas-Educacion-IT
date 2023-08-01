@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio adicional Uno</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+// Ejercicio 1
+
+// Se generará un mensaje de alerta que saludará
+// al usuario con un mensaje diferente según el día
+// de la semana que sea.
+// Trabajaremos con getDay() y switch.
+
+    let fecha = new Date();
+    let dia = fecha.getDay();
+    switch (dia) {
+        case 0:
+            alert('Hola!!! Hoy es Domingo :D')
+            break;
+        case 1:
+            alert('Hola!!! Hoy es Lunes :D')
+            break;
+        case 2:
+            alert('Hola!!! Hoy es Martes :D')
+            break;
+        case 3:
+            alert('Hola!!! Hoy es Miercoles :D')
+            break;
+        case 4:
+            alert('Hola!!! Hoy es Jueves :D')
+            break;
+        case 5:
+            alert('Hola!!! Hoy es Viernes :D')
+            break;
+        case 6:
+            alert('Hola!!! Hoy es Sábado :D')
+            break;
+    }
+</script>
+</html>

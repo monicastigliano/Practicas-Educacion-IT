@@ -1,0 +1,15 @@
+/* Back Button */
+.back-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.back-button a {
+    color: #CCC;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+}

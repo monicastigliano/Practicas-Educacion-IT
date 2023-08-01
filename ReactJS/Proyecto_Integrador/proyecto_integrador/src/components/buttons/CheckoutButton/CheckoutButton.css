@@ -1,0 +1,20 @@
+.btn-checkout {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+.btn-checkout {
+    padding: 40px;
+    font-size: 20px;
+}
+
+.btn-checkout .total {
+    margin-left: 10px;
+}
+
+.btn-checkout .total::before {
+    content: '$';
+}

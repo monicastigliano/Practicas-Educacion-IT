@@ -1,0 +1,128 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+html{height: 100%;}
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+body > header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    padding: 1rem;
+    background-color: rgb(209, 115, 214);
+    color: white;
+    box-shadow: 0 2px 10px 2px rgba(0,0,0,0.3);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+body > header button {
+    background: transparent;
+    border: none;
+    margin-right: 1rem;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+body > header nav{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: -60%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 0 10px 10px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+body > header nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 1rem;
+}
+
+main{
+    flex-grow: 1;
+    height: 100%;
+    margin-top: 60px;
+    padding: 1rem;
+}
+
+body > footer{
+    background-color: rgb(209, 115, 214);
+    text-align: center;
+    padding: 1rem;
+    color: rgba(206, 206, 206, 0.493);
+}
+#loader{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+#portfolio{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#portfolio > article {
+    width: 50%;
+    max-width: 300px;
+    height: 200px;
+    padding: 0.5rem;
+    position: relative;
+    cursor: pointer;
+    border: 3px rgb(66,77,240) solid;
+}
+
+#portfolio > article > div {
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    background-size: contain;
+}
+#portfolio > article > div > img{
+    height: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+}
+
+#portfolio > article > div footer{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    left: 0;
+    padding: 0.5rem;
+    border: 3px rgb(241,86,86) solid;
+}
+
+@media screen and (min-width:700px){
+    body>header{
+        justify-content: space-between;
+    }
+    body>header button{
+        display: none!important;
+    }
+    body>header nav{
+        display: flex;
+        position: static;
+        width: auto;
+        height: auto;
+        /* background-color: rgb(72, 129, 214); */
+        box-shadow: none;
+    }
+}

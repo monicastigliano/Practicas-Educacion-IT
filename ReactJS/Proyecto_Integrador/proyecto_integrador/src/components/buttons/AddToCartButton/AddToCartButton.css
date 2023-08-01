@@ -1,0 +1,21 @@
+/* AddToCartButton */
+.add-to-cart-wrapper {
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-to-cart-button {
+    display: block;
+    border-radius: 30px;
+    border: 1px solid black;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 26px;
+    width: 70%;
+    text-transform: uppercase;
+    text-decoration: none;
+}

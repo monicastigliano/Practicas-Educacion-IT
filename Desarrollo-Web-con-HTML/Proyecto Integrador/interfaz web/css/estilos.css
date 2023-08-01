@@ -23,8 +23,9 @@ main{
 }
 nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+  padding: 20px;
 }
 header h1{
   font-family:'Coiny', cursive;
@@ -110,6 +111,13 @@ ol{
 .envianos{
   font-size: 44px;
   font-weight: bold;
+}
+
+.imagen-centrada{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 img{
   width: 50%;

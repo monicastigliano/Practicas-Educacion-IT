@@ -1,0 +1,63 @@
+/* Tipografía Fija */
+@font-face{
+    font-family: miFuenteFija;
+    src: url(fuentes/TTF/WorkSans-Black.ttf);
+    font-weight: 300;
+}
+@font-face{
+    font-family: miFuenteFija;
+    src: url(fuentes/TTF/WorkSans-Bold.ttf);
+    font-weight: 700;
+}
+@font-face{
+    font-family: miFuenteFija;
+    src: url(fuentes/TTF/WorkSans-Medium.ttf);
+    font-weight: 500;
+}
+@font-face{
+    font-family: miFuenteFija;
+    src: url(fuentes/TTF/WorkSans-Regular.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: miFuenteFija;
+    src: url(fuentes/TTF/WorkSans-Semibold.ttf);
+    font-weight: 600;
+}
+
+
+
+
+
+header{
+    text-align: center;
+    font-size: large;
+}
+
+/* Tipografía Fija */
+
+h1{
+    font-family: miFuenteFija;
+    font-weight: 800;
+    font-size: 6.5rem;
+}
+
+
+h1, h2{
+    color: #044f57;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards{
+    width: 20vw;
+}
+
+img{
+ 
+    width: 20vw;
+}
+

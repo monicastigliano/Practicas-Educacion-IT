@@ -1,0 +1,42 @@
+
+
+/* Tipografía Variable */
+@font-face{
+    font-family: miFuenteVariable;
+    src: url(fuentes/Variable/WorkSansGX.ttf);
+    font-variation-settings: 'wght' 400;
+}
+
+
+
+header{
+    text-align: center;
+    font-size: large;
+}
+
+
+
+/* Tipografía Variable */
+h1{
+    font-family: miFuenteVariable;
+    font-weight: 700;
+    font-size: 6.5rem;
+}
+h1, h2{
+    color: #044f57;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards{
+    width: 20vw;
+}
+
+img{
+ 
+    width: 20vw;
+}
+

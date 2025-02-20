@@ -1,0 +1,58 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-image: url(imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    width: 10vw;
+    height: 10vw;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 100vh; 
+}
+
+.cardsUno, .cardsDos{
+    height: 50vh;
+
+}
+.cardsUno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.cardsDos{
+    width: 50%;
+    
+}
+
+.cardsDos > img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.btn-instagram{
+    width: 15vw;
+    height: auto;
+    padding: 2% 4%;
+    background-color: #5956e9;
+    color: #bdbbf6;
+    text-decoration: underline;
+    border-radius: 6px;
+}
